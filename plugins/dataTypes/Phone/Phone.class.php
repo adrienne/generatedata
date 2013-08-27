@@ -46,6 +46,7 @@ class DataType_Phone extends DataTypePlugin {
 		<option value="(0xx) xxxxxxxx|(0xxx) xxxxxxxx|(0xxxx) xxxxxxx|(03xxxx) xxxxxx">{$this->L["germany"]}</option>
 		<option value="0xx-xxx-xxxx">{$this->L["japan"]}</option>
 		<option value="1-Xxx-Xxx-xxxx|Xxx-xxxx">{$this->L["different_formats"]}</option>
+		<option value="1-Xxx-Xxx-xxxx|01-Xxx-Xxx-xxxx|Xxx-Xxx-xxxx|Xxx.Xxx.xxxx|(Xxx) Xxx.xxxx|(Xxx) Xxx-xxxx|+01 (Xxx) Xxx-xxxx|+1 (Xxx) Xxx-xxxx|+1 Xxx.Xxx.xxxx|+1 Xxx-Xxx-xxxx|+01 Xxx-Xxx-xxxx|XxxXxxxxxx|1-Xxx-Xxx-xxxx Xx|01-Xxx-Xxx-xxxx Xxx|Xxx-Xxx-xxxx Xxx|Xxx.Xxx.xxxx Xxxx|(Xxx) Xxx.xxxx Xxxx|(Xxx) Xxx-xxxx Xxxx|+01 (Xxx) Xxx-xxxx Xxxx|+1 (Xxx) Xxx-xxxx Xxx|+1 Xxx.Xxx.xxxx Xxx|+1 Xxx-Xxx-xxxx xxxx|+01 Xxx-Xxx-xxxx xxxxxx|XxxXxxxxxx xxxxx|1-Xxx-Xxx-xxxx eXx|01-Xxx-Xxx-xxxx eXxx|Xxx-Xxx-xxxx eXxx|Xxx.Xxx.xxxx eXxxx|(Xxx) Xxx.xxxx eXxxx|(Xxx) Xxx-xxxx eXxxx|+01 (Xxx) Xxx-xxxx eXxxx|+1 (Xxx) Xxx-xxxx eXxx|+1 Xxx.Xxx.xxxx eXxx|+1 Xxx-Xxx-xxxx exxxx|+01 Xxx-Xxx-xxxx exxxxxx|XxxXxxxxxx exxxxx|1-Xxx-Xxx-xxxx eetXx|01-Xxx-Xxx-xxxx eetXxx|Xxx-Xxx-xxxx eet. Xxx|Xxx.Xxx.xxxx eetXxxx|(Xxx) Xxx.xxxx eet. Xxxx|(Xxx) Xxx-xxxx eet.Xxxx|+01 (Xxx) Xxx-xxxx eetXxxx|+1 (Xxx) Xxx-xxxx eetXxx|+1 Xxx.Xxx.xxxx eet.Xxx|+1 Xxx-Xxx-xxxx eet xxxx|+01 Xxx-Xxx-xxxx eet xxxxxx|XxxXxxxxxx eet.xxxxx">{$this->L["different_formats"]} (Advanced)</option>
 	</select>
 EOF;
 		return $html;
